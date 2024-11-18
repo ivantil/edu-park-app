@@ -216,11 +216,4 @@
 			<value>false</value>
 		</right>
 	</object>
-	<object>
-		<name>Document.ПродажаБилета.Attribute.Аттракцион</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
 </Rights>
