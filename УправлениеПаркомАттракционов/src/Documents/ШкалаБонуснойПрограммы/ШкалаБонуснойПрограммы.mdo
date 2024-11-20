@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="858f0c61-c19a-4cba-a7a0-bc9c0b74ad3b">
+  <producedTypes>
+    <objectType typeId="429a1902-a856-404c-a440-817a615ffc1c" valueTypeId="197ad825-f39c-405c-a069-47975a69f1d5"/>
+    <refType typeId="f2ff36f5-8f6f-4737-a57e-c68d015cc47a" valueTypeId="8cfd3e13-3d42-42ff-bbd1-b9606dcac080"/>
+    <selectionType typeId="9dd9857a-92ea-4a60-9bf3-62564c3c7f7f" valueTypeId="bc21cb71-1bca-4036-83a6-bde66d9c4726"/>
+    <listType typeId="cea6bb04-8d5f-4c66-ad51-0dae3d17ed41" valueTypeId="fb6057f8-7e93-4547-8b07-b59a8e173b49"/>
+    <managerType typeId="19343a6e-2fe4-4acb-8899-d2702f03ddc1" valueTypeId="5b8c6cb1-93ef-46aa-883d-e4fd231e57a0"/>
+  </producedTypes>
+  <name>ШкалаБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала бонусной программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ШкалаБонуснойПрограммы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="40bfa4ab-b89f-45f3-ab8c-90472ade0164">
+    <producedTypes>
+      <objectType typeId="147eaccf-f446-4e2b-82ef-d446b3a8ed99" valueTypeId="a9d96543-9d2b-490c-b8c8-89f316ffffb9"/>
+      <rowType typeId="b9291e0a-d7bd-4993-b0b9-c7c5989524ac" valueTypeId="f901ea54-2f2e-45c8-9aa0-a4c602870298"/>
+    </producedTypes>
+    <name>Диапазоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="d7f18657-1b3c-499e-808b-02158f804f77">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7865e886-21b1-4df5-90d3-20d4447d9a3a">
+      <name>ВерхняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верхняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a29cdbb1-5cf7-49d2-8fb9-cab161f37cc4">
+      <name>ПроцентНакопления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент накопления</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

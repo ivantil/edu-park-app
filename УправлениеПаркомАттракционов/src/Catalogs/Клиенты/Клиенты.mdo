@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25075599-610a-4f4a-a258-a5bc624ebfed">
+  <producedTypes>
+    <objectType typeId="2a36f0d1-1c0e-4f29-b182-839ad218137f" valueTypeId="0d9d3ae3-dfb8-4e19-b069-ba560f7f02dd"/>
+    <refType typeId="912014de-503f-4431-8ce5-708a9ebf363f" valueTypeId="5233ea5e-10e3-4b85-b55d-2ef12a5c87da"/>
+    <selectionType typeId="69c34459-265b-4989-86b7-c5c4e0521473" valueTypeId="e00aa8c5-8fc4-4a1e-ac08-3dc4e43f61fd"/>
+    <listType typeId="aaca1661-84c8-4c5a-91fd-a7d6f633c81e" valueTypeId="61a6542b-638a-4717-bb46-313ba32c9c18"/>
+    <managerType typeId="c0a002d0-db35-496c-bf1c-bb33d5ebe7c2" valueTypeId="4c751c1a-e4e7-4e2d-849d-6a4ac8e4d23e"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Клиенты.Attribute.Телефон</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a85c34d6-f15e-474c-86af-f3c815f97705">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
